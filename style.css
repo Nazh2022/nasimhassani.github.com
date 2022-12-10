@@ -291,14 +291,24 @@ header nav a:hover{
     text-align: justify;
   
 }
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-40px); }
+    100% { transform: translateY(0); }
+  }
 
 .filme-principal .titulo{
     /*margin-top: 15%;*/    
     font-size: 40px;
     /*font-family: 'Trebuchet MS', Arial, sans-serif;*/
   font-family: 'Anton', sans-serif;
-
+  animation: bounce 0.9s ease;
+  color: #B5B3A9ff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  
 }
+
 
 #pontos-turisticos, #culinaria{
     font-family: 'Anton', sans-serif;
