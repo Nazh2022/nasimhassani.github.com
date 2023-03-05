@@ -302,10 +302,10 @@ header nav a:hover{
     font-size: 40px;
     /*font-family: 'Trebuchet MS', Arial, sans-serif;*/
   font-family: 'Anton', sans-serif;
-  animation: bounce 0.9s ease;
+  /* animation: bounce 0.9s ease;
   color: #B5B3A9ff;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: white;*/
   
 }
 
